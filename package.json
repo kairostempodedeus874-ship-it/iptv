@@ -1,0 +1,19 @@
+{
+  "name": "nexplay-whatsapp-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Servidor de conexao do WhatsApp (QR Code) usado pelo painel NexPlay",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "express": "^4.19.2",
+    "pino": "^9.0.0"
+  }
+}
